@@ -131,7 +131,7 @@ The main goal was to strengthen core frontend development skills and build a rea
 
 
 
-**Your Name**
-GitHub: https://github.com/yourusername
+**ANANTHALAKSHMI**
+GitHub: https://github.com/anucodeverse
 
 ---
