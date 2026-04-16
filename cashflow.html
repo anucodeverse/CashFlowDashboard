@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <title>CashFlow Dashboard</title>
+    <link rel="stylesheet" href="cashflow.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+    <h2>CashFlow</h2>
+
+    <nav>
+        <ul>
+            <li class="active">
+                <i class="fas fa-chart-line"></i>
+                <span>Dashboard</span>
+            </li>
+
+            <li>
+                <i class="fas fa-wallet"></i>
+                <span>Expenses</span>
+            </li>
+
+            <li>
+                <i class="fas fa-file-alt"></i>
+                <span>Reports</span>
+            </li>
+        </ul>
+        
+        <button id="toggleSidebar">☰</button>
+    </nav>
+
+</aside>
+
+    <!-- Main Content -->
+    <main class="main">
+
+        <!-- Topbar -->
+        <div class="topbar">
+            <h1>Overview</h1>
+            <div class="top-controls">
+                <button id="downloadPDF" type="button">Download Report</button>
+
+                <select id="currency">
+                    <option value="INR">INR</option>
+                    <option value="USD">USD</option>
+                </select>
+                <button id="themeToggle" class="theme-toggle">🌙</button>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+
+            <!-- Left Side -->
+            <div class="left-panel">
+
+                <!-- Salary -->
+                <div class="card">
+                    <label>Salary</label>
+                    <div class="input-group">
+                    <input type="number" id="salaryInput" placeholder="Enter your salary">
+                    <button id="setSalaryBtn" type="button">Set Salary</button>
+                    <p>Salary: <span id="salaryDisplay">0</span></p>
+                    </div>
+                </div>
+
+                <!-- Add Expense -->
+                <div class="card">
+                    <h2>Add Expense</h2>
+                    <input type="text" id="expenseName" placeholder="Expense Name">
+                    <input type="number" id="expenseAmount" placeholder="Amount">
+                   <button id="addExpenseBtn" type="button">Add Expense</button>
+                </div>
+
+                <!-- Overview -->
+                <div class="card">
+                    <h2>Financial Overview</h2>
+                    <p>Total Expenses: <span id="totalExpenses">0</span></p>
+                    <p>Remaining Balance: <span id="remainingBalance">0</span></p>
+
+                    <h3>Transaction History</h3>
+                    <ul id="expenseList">
+                         <p class="empty">No expenses added yet</p>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Right Side -->
+            <div class="right-panel">
+
+                <div class="card">
+                    <h3>Expense Chart</h3>
+
+                     <div class="chart-container">
+                        <canvas id="expenseChart"></canvas>
+                     </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="cashflow.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+
+</body>
+</html> 
