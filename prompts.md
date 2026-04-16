@@ -1,6 +1,6 @@
 # CashFlowDashboard
 
-1.When building a dashboard layout, what are the advantages of using semantic elements like <aside>, <nav>, and <main> over generic <div> containers in terms of accessibility and SEO?
+1.When building a dashboard layout, what are the advantages of using semantic elements like <aside> <nav> and <main> over generic <div> containers in terms of accessibility and SEO?
 
 2.What is the most efficient way to implement a collapsible sidebar using JavaScript and CSS class toggling while ensuring smooth transitions and minimal DOM reflow?
 
