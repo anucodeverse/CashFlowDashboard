@@ -46,7 +46,7 @@ Dashboard Overview USD
 ![USD](images/USD-Dashboard.png)
 
 Expenses Download Report 
-![Report PDF](images/pdf-INR.png)
+![Report PDF](images/pdf-IN.png)
 
 
 
