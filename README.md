@@ -1,14 +1,13 @@
-# 💰 Cash Flow Tracker Dashboard
+#  Cash Flow Tracker Dashboard
 
-## 📖 Overview
+##  Overview
 
 The Cash Flow Tracker Dashboard is a responsive web application designed to help users manage their personal finances efficiently. It allows users to input their salary, track expenses, monitor remaining balance, and visualize financial data through an interactive chart.
 
 This project focuses on building a clean dashboard UI while implementing core JavaScript concepts such as DOM manipulation, data persistence, and real-time updates.
 
----
 
-## 🚀 Features
+##  Features
 
 * Add and display total salary
 * Add, view, and delete expenses dynamically
@@ -24,7 +23,7 @@ This project focuses on building a clean dashboard UI while implementing core Ja
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 * **HTML5** – Semantic structure
 * **CSS3** – Flexbox, layout design, animations
@@ -36,40 +35,41 @@ This project focuses on building a clean dashboard UI while implementing core Ja
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
-### 💻 Desktop View
+### Desktop View
 
-Dashboard Overview
-![Dashboard](images/dashboard.png)
+Dashboard Overview INR
+![INR](images/INR-Dashboard.png)
 
-Expense & Balance Section
-![Expenses](images/expense.png)
+Dashboard Overview USD
+![USD](images/USD-Dashboard.png)
 
-Chart Visualization
-![Chart](images/chart.png)
+Expenses Download Report 
+![Report PDF](images/pdf-INR.png)
 
----
 
-### 📱 Mobile View
+
+###  Mobile View
 
 Mobile Dashboard
-![Mobile](images/mobile1.png)
+![Mobile](images/mobile-view.png)
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
-cash-flow-tracker/
+CashFlowDashboard/
 │── index.html        → Main HTML structure
 │── cashflow.css      → Styling and layout
 │── cashflow.js       → Application logic
 │── images/           → Screenshots and assets
-│── README.md         → Project documentation
+│── README.md 
+│── prompts.md 
 
 ---
 
-## ⚙️ How to Run the Project
+##  How to Run the Project
 
 1. Clone the repository:
 
@@ -81,17 +81,17 @@ cash-flow-tracker/
 
 3. Run the project:
 
-   * Open `index.html` in your browser
+    Open `index.html` in your browser
 
----
 
-## 🌐 Live Demo
 
-https://yourusername.github.io/cash-flow-tracker/
+##  Live Demo
 
----
+https://anucodeverse.github.io/CashFlowDashboard/
 
-## 🧠 Technical Learnings
+
+
+##  Technical Learnings
 
 * Handling dynamic DOM updates efficiently
 * Managing application state using JavaScript
@@ -100,9 +100,8 @@ https://yourusername.github.io/cash-flow-tracker/
 * Working with APIs for real-time data conversion
 * Designing responsive dashboard layouts
 
----
 
-## ❗ Challenges Faced
+##  Challenges Faced
 
 * Pie chart not rendering correctly after reload
 * Handling currency symbol display dynamically
@@ -110,9 +109,9 @@ https://yourusername.github.io/cash-flow-tracker/
 * Managing UI updates without breaking chart rendering
 * Aligning dashboard layout for a professional look
 
----
 
-## 🔮 Future Improvements
+
+##  Future Improvements
 
 * Add backend integration (Node.js / Database)
 * User authentication system
@@ -120,16 +119,17 @@ https://yourusername.github.io/cash-flow-tracker/
 * Multiple currency support
 * Export data as CSV/Excel
 
----
 
-## 📌 Note
+
+##  Note
 
 This project is built using **pure HTML, CSS, and JavaScript** without using any frameworks like React or Bootstrap.
 The main goal was to strengthen core frontend development skills and build a real-world dashboard application.
 
----
 
-## 👤 Author
+
+
+
 
 **Your Name**
 GitHub: https://github.com/yourusername
